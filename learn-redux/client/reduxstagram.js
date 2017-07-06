@@ -5,7 +5,10 @@ import ReactDOM from 'react-dom';
 //Import CSS, webpack se encargará de importar el css
 import css from './styles/style.styl';
 
-ReactDOM.render(<p>Hi</p>, document.getElementById('root'));
+//Import Componentes
+import Main from './components/Main';
+
+ReactDOM.render(<Main/>, document.getElementById('root'));
 
 
 
